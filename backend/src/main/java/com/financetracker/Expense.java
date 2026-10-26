@@ -1,6 +1,6 @@
 package com.financetracker;
 
-// Child class: Expenses — mirrors your backend_structure exactly
+// Child class: Expenses 
 public class Expense extends FinanceRecord {
     private String category; // "Needs" | "Wants" | "Bills"
 
@@ -10,5 +10,7 @@ public class Expense extends FinanceRecord {
     }
 
     @Override
-    public String getCategory() { return category; }
+    public String getCategory() {
+        return category;
+    }
 }

@@ -12,7 +12,11 @@ public class SavingsGoal extends FinanceRecord {
     }
 
     @Override
-    public String getCategory() { return duration; } // duration acts as category
+    public String getCategory() {
+        return duration;
+    } // duration acts as category
 
-    public double getTarget() { return target; }
+    public double getTarget() {
+        return target;
+    }
 }

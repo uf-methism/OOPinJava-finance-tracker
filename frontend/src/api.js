@@ -1,6 +1,5 @@
-// ─── API Base URL ───────────────────────────────────────────────────────────
-// Change this if your Spring Boot backend runs on a different port.
-const BASE = 'http://localhost:8080/api/finance'
+// When running via Vite dev server, requests to /api are proxied to http://localhost:8080
+const BASE = '/api/finance'
 
 // Helper: throw a readable error when the server returns a non-OK status
 async function handleResponse(res) {

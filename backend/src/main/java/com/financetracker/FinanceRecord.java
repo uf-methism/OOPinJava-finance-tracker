@@ -10,8 +10,13 @@ public abstract class FinanceRecord {
         this.amount = amount;
     }
 
-    public String getName()   { return name; }
-    public double getAmount() { return amount; }
+    public String getName() {
+        return name;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
 
     public abstract String getCategory();
 }
